@@ -23,7 +23,7 @@ Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, sh
 
 ## Stack
 
-**Languages:** Go, TypeScript, JavaScript, C++
-**Backend:** Gin, Node.js, Express, GraphQL, WebSockets, BullMQ
-**Data:** PostgreSQL, MongoDB, Redis
-**Infra:** AWS, Docker, Kubernetes, Nginx, Caddy, GitHub Actions
+- **Languages:** Go, TypeScript, JavaScript, C++
+- **Backend:** Gin, Node.js, Express, GraphQL, WebSockets, BullMQ
+- **Data:** PostgreSQL, MongoDB, Redis
+- **Infra:** AWS, Docker, Kubernetes, Nginx, Caddy, GitHub Actions
