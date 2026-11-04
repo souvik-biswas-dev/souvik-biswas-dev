@@ -12,7 +12,7 @@ Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, sh
 | Open Cluster Management (CNCF) | Diagnosed a ~1% e2e flake in the klusterlet operator (double agent rollout plus a 163s leader-election wait against a 150s test timeout); merged a test-only fix | [ocm#1756](https://github.com/open-cluster-management-io/ocm/pull/1756) |
 | Kubernetes minikube | Fixed arm64 lint failures in the KVM driver and added an arm64 runner to the CI lint matrix | [minikube#23860](https://github.com/kubernetes/minikube/pull/23860) |
 | Gitea docs | Fixed a wrong repository path in the Backup & Restore guide, checked against the source and Docker templates | [docs#601](https://gitea.com/gitea/docs/pulls/601) |
-
+| kcp | Added e2e tests proving authz webhook grants can't bypass the required-groups and system-CRD gates, and that a webhook Deny overrides RBAC | [kcp#4517](https://github.com/kcp-dev/kcp/pull/4517) |
 [All merged PRs →](https://github.com/search?q=author%3Asouvik-biswas-dev+is%3Apr+is%3Amerged&type=pullrequests)
 
 ## Projects
