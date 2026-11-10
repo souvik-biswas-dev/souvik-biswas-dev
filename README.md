@@ -14,6 +14,7 @@ Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, sh
 | Gitea docs | Fixed a wrong repository path in the Backup & Restore guide, checked against the source and Docker templates | [docs#601](https://gitea.com/gitea/docs/pulls/601) |
 | kcp | Added e2e tests proving authz webhook grants can't bypass the required-groups and system-CRD gates, and that a webhook Deny overrides RBAC | [kcp#4517](https://github.com/kcp-dev/kcp/pull/4517) |
 | OpenTelemetry Collector (CNCF) | `mdatagen` now generates README docs for `exported_configs`: scalar types, shared `$ref` types and escaped table cells | [opentelemetry-collector#16168](https://github.com/open-telemetry/opentelemetry-collector/pull/16168) |
+| Argo Rollouts (CNCF) | Fixed ALB docs that told users to set a non-existent `--aws-region` flag; documented the `AWS_REGION` env var after checking the controller code | [argo-rollouts#5174](https://github.com/argoproj/argo-rollouts/pull/5174) |
 [All merged PRs →](https://github.com/search?q=author%3Asouvik-biswas-dev+is%3Apr+is%3Amerged&type=pullrequests)
 
 ## Projects
