@@ -9,6 +9,7 @@ Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, sh
 | Project | Change | PR |
 |---|---|---|
 | Podman | Fixed a pod-lock hang: `--sdnotify=healthy` held the pod lock during the health wait, blocking `pod inspect` and `create --pod`; released the lock before the wait and added a BATS regression test | [podman#30112](https://github.com/podman-container-tools/podman/pull/30112) |
+| Grafana | Fixed `MultiCombobox` stealing focus under React StrictMode, and Delete/Backspace on a chip clearing every selected item; both came from one wrong default `initialActiveIndex` | [grafana#136939](https://github.com/grafana/grafana/pull/136939) |
 | Flux (CNCF) | `flux get` / `flux reconcile` accept kubectl-style `TYPE/NAME` args, e.g. `hr/podinfo` | [flux2#6134](https://github.com/fluxcd/flux2/pull/6134) |
 | kcp | Added e2e tests proving authz webhook grants can't bypass the required-groups and system-CRD gates, and that a webhook Deny overrides RBAC | [kcp#4517](https://github.com/kcp-dev/kcp/pull/4517) |
 | OpenTelemetry Collector (CNCF) | `mdatagen` now generates README docs for `exported_configs`: scalar types, shared `$ref` types and escaped table cells | [opentelemetry-collector#16168](https://github.com/open-telemetry/opentelemetry-collector/pull/16168) |
