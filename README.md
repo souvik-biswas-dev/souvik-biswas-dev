@@ -1,6 +1,6 @@
 # Hi, I'm Souvik Biswas 👋
 
-Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, ship them with Docker, Kubernetes and AWS, and contribute to Kubernetes-ecosystem open source.
+Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, ship them with Docker, Kubernetes and AWS, and contribute to cloud-native open source.
 
 📫 souvikbiswas.dev@gmail.com · 🌐 [Portfolio](https://souvikbiswas-portfolio.pages.dev) · 💼 [LinkedIn](https://linkedin.com/in/souvik-biswas-dev)
 
@@ -14,12 +14,13 @@ Backend and DevOps engineer (new grad 2026). I build Go and Node.js services, sh
 | kcp | Added e2e tests proving authz webhook grants can't bypass the required-groups and system-CRD gates, and that a webhook Deny overrides RBAC | [kcp#4517](https://github.com/kcp-dev/kcp/pull/4517) |
 | OpenTelemetry Collector (CNCF) | `mdatagen` now generates README docs for `exported_configs`: scalar types, shared `$ref` types and escaped table cells | [opentelemetry-collector#16168](https://github.com/open-telemetry/opentelemetry-collector/pull/16168) |
 | Open Cluster Management (CNCF) | Diagnosed a ~1% e2e flake in the klusterlet operator (double agent rollout plus a 163s leader-election wait against a 150s test timeout); merged a test-only fix | [ocm#1756](https://github.com/open-cluster-management-io/ocm/pull/1756) |
-| Kubernetes minikube | Fixed arm64 lint failures in the KVM driver and added an arm64 runner to the CI lint matrix | [minikube#23860](https://github.com/kubernetes/minikube/pull/23860) |
 
-[All merged PRs →](https://github.com/pulls?q=is%3Apr+author%3Asouvik-biswas-dev+is%3Amerged)
+[All merged PRs →](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Asouvik-biswas-dev+-user%3Asouvik-biswas-dev)
 
 ## Projects
 
+- **[BackupVouch](https://github.com/souvik-biswas-dev/backupvouch)**: Kubernetes operator in Go (kubebuilder) that restores each PostgreSQL backup into a throwaway database and runs SQL checks, so a backup only counts once it is proven to restore. Cosign-signed images, GitHub Actions CI.
+- **[Respawn](https://github.com/souvik-biswas-dev/respawn)**: small-team platform defined entirely as code (Terraform, Ansible, k3s, ArgoCD, SOPS) with scripted failure drills that time recovery and count lost rows.
 - **[DriftWatch](https://github.com/souvik-biswas-dev/DriftWatch)**: Go service that compares running Docker containers with the docker-compose.yml in GitHub and flags 5 kinds of drift within 60 seconds. Agent pushes state over HTTPS, so servers never accept inbound connections.
 - **[ReviewFlow](https://github.com/souvik-biswas-dev/ReviewFlow)**: real-time code review in Go with a race-free WebSocket room manager and a gqlgen GraphQL layer, no message broker.
 - **School Portal 360** ([live](https://schoolportal360.com)): multi-tenant school ERP in production for 1,000+ students (Next.js, MongoDB, Redis, Docker, Kubernetes).
